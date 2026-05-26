@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* === Custom font: Corporate S === */
+@font-face {
+  font-family: 'Corporate S';
+  src: url('./assets/fonts/CorporateS-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Corporate S';
+  src: url('./assets/fonts/CorporateS-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Apply Corporate S as default sans font for the whole app */
+  --font-sans: 'Corporate S', ui-sans-serif, system-ui, sans-serif;
+  --font-corporate: 'Corporate S', ui-sans-serif, system-ui, sans-serif;
+
+  --color-dylo-orange-light: #FFDB70;
+  --color-dylo-orange: #F9B758;
+  --color-dylo-orange-dark: #F6A44B;
+  --color-dylo-orange-darker: #F59D47;
+  --color-dylo-orange-hover: #F5962E;
+  --color-dylo-orange-hover-dark: #F78616;
+  --color-dylo-teal-light: #55D2D0;
+  --color-dylo-teal: #45C4C2;
+  --color-dylo-teal-dark: #31B6B5;
+  --color-dylo-teal-darker: #099796;
+  --color-dylo-teal-hover: #3BB8B6;
+  --color-dylo-teal-hover-dark: #00807F;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
