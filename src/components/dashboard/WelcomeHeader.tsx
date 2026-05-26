@@ -1,7 +1,5 @@
 import { useAuthStore } from '../../stores/useAuthStore';
 
-const EP = '/Plataforma_DYLO26/Estructura_Principal';
-
 export function WelcomeHeader() {
   const user = useAuthStore((state) => state.user);
 
