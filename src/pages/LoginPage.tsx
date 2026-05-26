@@ -53,7 +53,7 @@ export const LoginPage = () => {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-amber-50 to-orange-50 px-4">
       <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-lg">
         <div className="mb-6 flex justify-center">
-          <img src="/dylo_logo.png" alt="DYLO HR" className="h-16" />
+          <img src="/Logo_Dylo.svg" alt="DYLO HR" className="h-16" />
         </div>
 
         {serverError && (
